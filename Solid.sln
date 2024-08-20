@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "violating-srp", "violating-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "violatingSRP", "single-responsibilty-principle\violating-srp\violatingSRP\violatingSRP.csproj", "{58ADADA1-FA80-4B36-A3E1-8266F8491657}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "implementing-srp", "implementing-srp", "{67BC329B-10BF-4849-9B22-21DF08EC9E8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "implementingSRP", "single-responsibilty-principle\implementing-srp\implementingSRP\implementingSRP.csproj", "{B8DEB0C0-FBA0-4A75-9A88-EB0006AE6DD3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,9 +26,15 @@ Global
 		{58ADADA1-FA80-4B36-A3E1-8266F8491657}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58ADADA1-FA80-4B36-A3E1-8266F8491657}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58ADADA1-FA80-4B36-A3E1-8266F8491657}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8DEB0C0-FBA0-4A75-9A88-EB0006AE6DD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8DEB0C0-FBA0-4A75-9A88-EB0006AE6DD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8DEB0C0-FBA0-4A75-9A88-EB0006AE6DD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8DEB0C0-FBA0-4A75-9A88-EB0006AE6DD3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D8BFCE66-1665-45B5-9ACA-DC7F10DAEFB8} = {7BA83D99-ECCE-41D1-8880-4B256D6DC853}
 		{58ADADA1-FA80-4B36-A3E1-8266F8491657} = {D8BFCE66-1665-45B5-9ACA-DC7F10DAEFB8}
+		{67BC329B-10BF-4849-9B22-21DF08EC9E8C} = {7BA83D99-ECCE-41D1-8880-4B256D6DC853}
+		{B8DEB0C0-FBA0-4A75-9A88-EB0006AE6DD3} = {67BC329B-10BF-4849-9B22-21DF08EC9E8C}
 	EndGlobalSection
 EndGlobal
